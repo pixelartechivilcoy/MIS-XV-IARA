@@ -1841,16 +1841,18 @@ display: inline-block;
     gap: 1.5rem;
   }
 
-  .footer-logo {
-    width: 160px;
-  }
-
-  .footer-redes {
+    .footer-redes {
     gap: 1rem;
   }
 
   .footer-icono img {
     width: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo {
+    width: clamp(100px, 35vw, 140px);
   }
 }
 
