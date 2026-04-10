@@ -1850,9 +1850,9 @@ display: inline-block;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .footer-logo {
-    width: clamp(100px, 35vw, 140px);
+    width: clamp(160px, 50vw, 220px);
   }
 }
 
